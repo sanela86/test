@@ -1,0 +1,94 @@
+/*selector {
+	property: value;
+}*/
+body {
+	background: url('img/01.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+.content {
+	background-color: #BE7FAD;
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 2em;
+}
+ 
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+	border: 1px solid #9F4F89;
+}
+
+nav a {
+	display: block;
+	padding: 10px 15px;
+	background-color: #BE7FAD;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all ease-in-out 0.3s;
+	font-size: 11px;
+}
+nav a:hover {
+	background-color: #9F4F89;
+}
+
+.products_gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.products_gallery img {
+	width: 100%;
+	max-width: 450px;
+	height: auto;
+	display: block;
+	margin: 10px;
+	transition: all 1s;
+}
+.products_gallery img:hover {
+	transform: scale(1.1);
+}
+
+.statup_hero {
+	background: url(img/01.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+.statup_hero .row {
+	height: 100%;
+    min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.statup_hero h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+.statup_hero a.btn_cnt {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.statup_hero button {
+	background-color: #FFA500;
+	border-color: #FFA500;
+	border-radius: 100px;
+	padding: 8px 24px;
+}
